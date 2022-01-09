@@ -1,0 +1,40 @@
+(await bookStore.getBooks())
+(await bookStore.getBooks()).toString()
+(await bookStore.addBook(newBook2)).toString()
+const newBook2 = { title: "Great Not Gatsby", year : 2021 }
+(await bookStore.getBooks()).toString()
+(await bookStore.getBooks).toString()
+(await bookStore.addBook(newBook)).toString()
+const newBook = { title: "Great Gasby", year : 2009 }
+const bookStore = await BookStore.attach("0x610178dA211FEF7D417bC0e6FeD39F05609AD788")
+const BookStore = await ethers.getContractFactory("BookStore")
+clear
+await bookStore.addBook(newBook)
+const addRes = await bookStore.addBook(newBook)
+const newBook = { title: "Great Gasby", year : 2009 }
+const bookStore = await BookStore.attach("0xa513E6E4b8f2a923D98304ec87F64353C4D5C853")
+const BookStore = await ethers.getContractFactory("BookStore")
+cls
+ clear
+addRes
+const addRes = await bookStore.addBook(newBook)
+bookStore.addBook(newBook)
+const newBook = { title: "Great Gasby", year : 2009 }
+const bookStore = await BookStore.attach("0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9")
+const BookStore = await ethers.getContractFactory("BookStore")
+bookStore.addBook(newBook)
+const newBook = { title: "Great Gasby", year : 2009 }
+const bookStore = await BookStore.attach("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0")
+const BookStore = await ethers.getContractFactory("BookStore")
+bookStore.addBook(newBook)
+const newBook = { title: "Great Gasby", year : 2009 }
+const bookStore = await BookStore.attach("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0")
+const BookStore = await ethers.getContractFactory("BookStore")
+bookStore.addBook(newBook)
+const newBook = { title: "Great Gasby", year : 2009 }
+const bookStore = await BookStore.attach("0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512")
+const BookStore = await ethers.getContractFactory("BookStore")
+const newBook = { title: 
+bookStore.addBook(Book("Great Gastby", 1998, 1000, "Fitzgerald"))
+const bookStore = await BookStore.attach("0x5FbDB2315678afecb367f032d93F642f64180aa3")
+const BookStore = await ethers.getContractFactory("BookStore")
